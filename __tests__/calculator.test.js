@@ -10,4 +10,12 @@ describe('Calculator', () => {
   test('It should return true after invoking the getDay function', () => {
     expect(date1.day).toBeTruthy();
   });
+
+  afterEach(() => {
+    date1 = new Calculator("11 11 2021");
+  });
+  
+  test('It should return Thursday as the day', () => {
+    expect(date1.day).toBe("Thursday");
+  });
 });

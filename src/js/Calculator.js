@@ -6,6 +6,9 @@ export default class Calculator {
   }
 
   getDay(string) {
-    return true;
+    let date = new Date(string);
+    const options = { weekday: 'long'};
+  
+    return  new Intl.DateTimeFormat('en-US', options).format(date);
   }
 }
