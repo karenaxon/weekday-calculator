@@ -1,4 +1,4 @@
-# Karen Axon Portfolio
+# Weekday Calculator
 This application returns the day for any given date. The user can enter a date and see what day of the week that date occurred or will occur on.
 
 #### By Karen Axon
