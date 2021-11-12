@@ -25,7 +25,7 @@ $("form").on("submit", function(){
     $("form").trigger("reset");
   } else {
     const day = new Calculator(validatedDate);
-    $("#output").text(`The day was ${day.day}`).show();
+    $("#output").text(`${inputDate} is, was or will be a ${day.day}.`).show();
     $("form").trigger("reset");
   }
 }); 
